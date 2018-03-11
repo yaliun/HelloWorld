@@ -3,10 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.yaliun</groupId>
-	<artifactId>web</artifactId>
+	<artifactId>net</artifactId>
 	<name>HelloWorld</name>
 	<packaging>war</packaging>
-	<version>1.0</version>
 	<properties>
 		<java-version>1.8</java-version>
 		<org.springframework-version>4.3.14.RELEASE</org.springframework-version>
@@ -118,6 +117,7 @@
 		</dependency>        
 	</dependencies>
     <build>
+    	<finalName>ROOT.war</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-eclipse-plugin</artifactId>
@@ -155,4 +155,5 @@
             </plugin>
         </plugins>
     </build>
+    <version>1.0</version>
 </project>
